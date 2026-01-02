@@ -1,0 +1,18 @@
+{
+    "name": "dex-amm",
+    "version": "1.0.0",
+    "description": "Simple AMM DEX similar to Uniswap V2",
+    "scripts": {
+      "compile": "hardhat compile",
+      "test": "hardhat test",
+      "coverage": "hardhat coverage",
+      "deploy": "hardhat run scripts/deploy.js"
+    },
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.0"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^5.0.0"
+    }
+  }
