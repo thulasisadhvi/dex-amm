@@ -25,18 +25,14 @@ A simplified Automated Market Maker (AMM) Decentralized Exchange built with Soli
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/thulasisadhvi/dex-amm
    cd dex-amm
-
-```
 
 2. Install dependencies:
 ```bash
 npm install
 
 ```
-
-
 
 ## Usage
 
@@ -60,13 +56,6 @@ npx hardhat test
 
 ```bash
 npx hardhat coverage
-
-```
-
-### Deployment (Local)
-
-```bash
-npx hardhat run scripts/deploy.js
 
 ```
 
