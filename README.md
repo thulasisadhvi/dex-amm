@@ -1,4 +1,3 @@
-```markdown
 # Decentralized Exchange (AMM)
 
 A simplified Automated Market Maker (AMM) Decentralized Exchange built with Solidity and Hardhat. This project implements the Constant Product Formula (`x * y = k`) to allow users to swap tokens and provide liquidity.
@@ -86,4 +85,3 @@ docker-compose up --build
 * **DEX.sol**: Main exchange logic.
 * **MockERC20.sol**: Test tokens (Token A and Token B) for simulating trades.
 
-```
